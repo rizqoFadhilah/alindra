@@ -1,0 +1,173 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+.thumbs li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.thumbs li img {
+  padding: 5px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+}
+
+.main img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  color: #222;
+  margin: 10px 0;
+}
+
+.link:hover {
+  text-decoration: none;
+  background-color: #076083;
+  color: #222;
+  border-radius: 4px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0);
+}
+
+.btn-outline-primary {
+  color: #222;
+  border-radius: 20px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #076083;
+  color: #222;
+}
+
+footer {
+  background-color: #28303b;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+footer h5 {
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.line {
+  border: 1px solid #d5d5d5;
+  width: 50%;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.navbar img {
+  width: 350px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.list-wrap {
+  border: 1px solid rgb(231, 231, 231);
+  padding: 20px;
+}
+.list-wrap h5 {
+  color: #076083;
+}
+.list-wrap p {
+  color: #788488;
+}
+.label h5 {
+  font-size: 2rem;
+  margin-top: 30px;
+  color: #076083;
+}
+.label {
+  margin-bottom: 20px;
+}
+.label p {
+  font-size: 1rem;
+  color: #788488;
+}
+
+.label2 {
+  border: 1px solid rgb(231, 231, 231);
+  padding: 20px;
+  margin-top: 20px;
+}
+.label2 h5 {
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  color: #076083;
+}
+.label2 p {
+  font-size: 1rem;
+  box-sizing: border-box;
+  color: rgb(77, 75, 75);
+}
+
+.list-wrap li {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.wrap-col {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+  color: #3a3a3a;
+}
+.keunggulan {
+  margin-bottom: 30px;
+}
+
+.luar .icon {
+  font-size: 45px;
+  color: #6ba0b6;
+  margin-right: 10px;
+}
+
+.img-thumbnail {
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .btn-outline-primary {
+    color: #222;
+  }
+
+  .thumbs li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .link {
+    text-decoration: none;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    color: #222;
+    margin: 0 10px;
+  }
+
+  .thumbs li img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .main img {
+    height: 100%;
+    width: 100%;
+  }
+}
